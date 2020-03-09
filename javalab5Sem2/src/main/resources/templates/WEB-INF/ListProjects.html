@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Project List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>Project List</h1>
+<span th:if="${session.role.equals('admin')}">
+<a href="AddProject">Add Project</a>
+</span>
+<br/><br/>
+<div>
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Project Name</th>
+            <span th:if="${session.role.equals('admin')}">
+            <th>Action</th>
+            </span>
+        </tr>
+        <tr th:each ="project : ${projects}">
+            <td th:utext="${project.firstName}">...</td>
+            <td th:utext="${project.nameProject}">...</td>
+            <span th:if="${session.role.equals('admin')}">
+            <td><a th:href="'ChangeProject?id='+${project.id}">Change</a><br/>
+                <a th:href="'DeleteProject?id='+${project.id}">Delete</a></td>
+            </span>
+        </tr>
+    </table>
+</div>
+<a href="index">Return</a>
+</body>
+</html>

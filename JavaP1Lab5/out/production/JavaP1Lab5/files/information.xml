@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<director>
+    <name>Раскоша</name>
+    <worker>
+        <lastName>Демосюк</lastName>
+        <firstName>Павел</firstName>
+        <secondName>Алексеевич</secondName>
+        <salary>11</salary>
+        <experience>22</experience>
+    </worker>
+    <worker>
+        <lastName>Шпаковский</lastName>
+        <firstName>Евгений</firstName>
+        <secondName>Иванович</secondName>
+        <salary>10</salary>
+        <experience>2</experience>
+    </worker>
+</director>

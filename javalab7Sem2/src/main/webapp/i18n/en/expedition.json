@@ -1,0 +1,26 @@
+{
+  "javalab7Sem2App": {
+    "expedition": {
+      "home": {
+        "title": "Expeditions",
+        "createLabel": "Create a new Expedition",
+        "createOrEditLabel": "Create or edit a Expedition",
+        "notFound": "No Expeditions found"
+      },
+      "created": "A new Expedition is created with identifier {{ param }}",
+      "updated": "A Expedition is updated with identifier {{ param }}",
+      "deleted": "A Expedition is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Expedition {{ id }}?"
+      },
+      "detail": {
+        "title": "Expedition"
+      },
+      "complexity": "Complexity",
+      "dispatchTime": "Dispatch Time",
+      "deadLine": "Dead Line",
+      "rate": "Rate",
+      "unit": "Unit"
+    }
+  }
+}

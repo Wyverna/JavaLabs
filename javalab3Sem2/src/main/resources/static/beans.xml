@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns ="http://www.springframework.org/schema/beans"
+       xmlns:xsi ="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation ="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="dateFormat" class="java.text.SimpleDateFormat">
+        <constructor-arg value="yyyy-MM-dd" />
+    </bean>
+    <bean id="worker" scope="prototype" class="com.example.javalab.model.Worker">
+        <qualifier value="worker2"/>
+        <constructor-arg value="BeanWorker2" index="0" type="java.lang.String"/>
+        <constructor-arg value="Attun" index="1" type="java.lang.String"/>
+        <constructor-arg value="13" index="2" type="java.lang.Integer"/>
+        <constructor-arg value="Ruby" index="3" type="java.lang.String"/>
+        <constructor-arg index="4" type="java.util.Date">
+            <bean factory-bean="dateFormat" factory-method="parse">
+                <constructor-arg value="2010-01-31" />
+            </bean>
+        </constructor-arg>
+        <constructor-arg value="Recruiter" index="5" type="java.lang.String"/>
+        <constructor-arg value="39" index="6" type="java.lang.Integer"/>
+        <constructor-arg value="123456789" index="7" type="java.lang.String"/>
+    </bean>
+    <bean id="beanWorkerByname" autowire="byName" class="com.example.javalab.Bean.BeanClass">
+    </bean>
+    <bean id="beanWorkerByType" autowire="byType" class="com.example.javalab.Bean.BeanClass">
+    </bean>
+    <bean id="StringResponse" scope="prototype"  class="java.lang.String">
+        <qualifier value="StringResponse"/>
+        <constructor-arg value="Autowiring Qualifier: "></constructor-arg>
+    </bean>
+    <bean id="beanWorkerByConstructor" autowire="constructor" class="com.example.javalab.Bean.BeanClass">
+    </bean>
+    <context:component-scan base-package="com.example.javalab.model">
+        <context:include-filter type="assignable"
+                                expression="com.example.javalab.model.Worker"/>
+    </context:component-scan>
+</beans>

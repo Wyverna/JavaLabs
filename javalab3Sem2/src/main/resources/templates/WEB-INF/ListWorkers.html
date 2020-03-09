@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Worker List</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>Person List</h1>
+<a href="AddWorker">Add Worker</a>
+<a href="ChangeWorker">Change Worker</a>
+<a href="DeleteWorker">Delete Worker</a>
+<br/><br/>
+<div>
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Experience Work</th>
+            <th>Technologies</th>
+            <th>Birthday</th>
+            <th>Position</th>
+            <th>Age</th>
+            <th>Telephone</th>
+        </tr>
+        <tr th:each ="worker : ${workers}">
+            <td th:utext="${worker.firstName}">...</td>
+            <td th:utext="${worker.lastName}">...</td>
+            <td th:utext="${worker.experienceWork}">...</td>
+            <td th:utext="${worker.technologies}">...</td>
+            <td th:utext="${worker.birthday}">...</td>
+            <td th:utext="${worker.position}">...</td>
+            <td th:utext="${worker.age}">...</td>
+            <td th:utext="${worker.telephone}">...</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

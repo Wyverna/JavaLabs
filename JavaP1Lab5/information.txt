@@ -1,0 +1,250 @@
+2019-03-12 15:55:03 INFO  Main:41 - 4
+2019-03-12 15:55:03 INFO  Main:46 - nice
+2019-03-12 15:55:06 ERROR SaxWorker:23 - Error of I/O Streamjava.io.FileNotFoundException: D:\BSTU\JavaP1Lab5\src\files\workersMarsh.xml (Устройство не готово)
+2019-03-12 15:55:06 ERROR Deserializator:17 - java.io.FileNotFoundException: D:\BSTU\JavaP1Lab5\src\files\serializeDirector.data (Устройство не готово)
+2019-03-12 15:55:06 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-03-12 15:55:06 ERROR JsonReader:29 - java.io.FileNotFoundException: D:\BSTU\JavaP1Lab5\src\files\data.json (Устройство не готово)
+2019-03-12 15:55:06 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}
+2019-03-12 15:57:51 INFO  Main:41 - 4
+2019-03-12 15:57:51 INFO  Main:46 - nice
+2019-03-12 15:57:52 ERROR SaxWorker:23 - Error of I/O Streamjava.io.FileNotFoundException: D:\BSTU\JavaP1Lab5\src\files\workersMarsh.xml (Устройство не готово)
+2019-03-12 15:57:52 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-03-12 15:57:52 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 15:57:52 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 15:57:52 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}
+2019-03-12 16:02:01 INFO  Main:41 - 4
+2019-03-12 16:02:01 INFO  Main:46 - nice
+2019-03-12 16:02:03 INFO  DemoWorkerParser:13 - Doc started
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Раскоша
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  name
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  countCourpuses
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  company
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Шенец
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Полина
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Сергеевна
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 12
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 32
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Козущик
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Савельевич
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 15
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Кривонос
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Тимур
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Александрович
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 20
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 56
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Савуль
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - Евгеньевич
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 5
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:02:03 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:02:03 INFO  DemoWorkerParser:30 -  director
+2019-03-12 16:02:03 INFO  DemoWorkerParser:17 - 
+Doc ended
+2019-03-12 16:02:03 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-03-12 16:02:03 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 16:02:03 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 16:02:03 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}
+2019-03-12 16:03:14 INFO  Main:41 - 4
+2019-03-12 16:03:14 INFO  Main:46 - nice
+2019-03-12 16:03:15 INFO  DemoWorkerParser:13 - Doc started
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Раскоша
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  name
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  countCourpuses
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  company
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Шенец
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Полина
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Сергеевна
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 12
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 32
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Козущик
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Савельевич
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 15
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Кривонос
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Тимур
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Александрович
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 20
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 56
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Савуль
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  lastName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  firstName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - Евгеньевич
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  secondName
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 5
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  experience
+2019-03-12 16:03:15 INFO  DemoWorkerParser:34 - 0
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  salary
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  worker
+2019-03-12 16:03:15 INFO  DemoWorkerParser:30 -  director
+2019-03-12 16:03:15 INFO  DemoWorkerParser:17 - 
+Doc ended
+2019-03-12 16:03:15 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-03-12 16:03:15 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 16:03:15 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-12 16:03:15 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}
+2019-03-14 11:38:37 INFO  Main:41 - 4
+2019-03-14 11:38:37 INFO  Main:46 - nice
+2019-03-14 11:38:39 INFO  DemoWorkerParser:13 - Doc started
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Раскоша
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  name
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 0
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  countCourpuses
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  company
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Шенец
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  lastName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Полина
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  firstName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Сергеевна
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  secondName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 12
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  experience
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 32
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  salary
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  worker
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Козущик
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  lastName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  firstName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Савельевич
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  secondName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 15
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  experience
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 0
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  salary
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  worker
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Кривонос
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  lastName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Тимур
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  firstName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Александрович
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  secondName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 20
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  experience
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 56
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  salary
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  worker
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Савуль
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  lastName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Вячеслав
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  firstName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - Евгеньевич
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  secondName
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 5
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  experience
+2019-03-14 11:38:39 INFO  DemoWorkerParser:34 - 0
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  salary
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  worker
+2019-03-14 11:38:39 INFO  DemoWorkerParser:30 -  director
+2019-03-14 11:38:39 INFO  DemoWorkerParser:17 - 
+Doc ended
+2019-03-14 11:38:39 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-03-14 11:38:39 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-14 11:38:39 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-03-14 11:38:39 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}
+2019-05-30 11:30:35 INFO  Main:41 - 4
+2019-05-30 11:30:35 INFO  Main:46 - nice
+2019-05-30 11:30:42 INFO  DemoWorkerParser:13 - Doc started
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Раскоша
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  name
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 0
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  countCourpuses
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  company
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Шенец
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  lastName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Полина
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  firstName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Сергеевна
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  secondName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 12
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  experience
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 32
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  salary
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  worker
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Козущик
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  lastName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Вячеслав
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  firstName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Савельевич
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  secondName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 15
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  experience
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 0
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  salary
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  worker
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Кривонос
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  lastName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Тимур
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  firstName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Александрович
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  secondName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 20
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  experience
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 56
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  salary
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  worker
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Савуль
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  lastName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Вячеслав
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  firstName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - Евгеньевич
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  secondName
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 5
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  experience
+2019-05-30 11:30:42 INFO  DemoWorkerParser:34 - 0
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  salary
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  worker
+2019-05-30 11:30:42 INFO  DemoWorkerParser:30 -  director
+2019-05-30 11:30:42 INFO  DemoWorkerParser:17 - 
+Doc ended
+2019-05-30 11:30:42 ERROR Main:57 - java.io.InvalidClassException: Object was not reestablished
+2019-05-30 11:30:42 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-05-30 11:30:42 INFO  JsonReader:25 - {lastName=Бабако, firstName=Анна, secondName=Владимировна, experience=2.0, salary=20.0}
+2019-05-30 11:30:42 INFO  JsonGenerator:14 - {"name":"Раскоша","company":{"countCourpuses":0},"workers":[{"lastName":"Шенец","firstName":"Полина","secondName":"Сергеевна","experience":12,"salary":32},{"language":"Java","lastName":"Козущик","firstName":"Вячеслав","secondName":"Савельевич","experience":15,"salary":0},{"lastName":"Кривонос","firstName":"Тимур","secondName":"Александрович","experience":20,"salary":56},{"language":"C","lastName":"Савуль","firstName":"Вячеслав","secondName":"Евгеньевич","experience":5,"salary":0}]}

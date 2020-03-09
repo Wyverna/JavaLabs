@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Add Worker</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>Delete Worker:</h1>
+<form th:action="@{/DeleteWorker}" th:object="${ViewController2}"
+      method="POST">
+    Delete number:
+    <input type="text"  th:field="*{numberDelete}" />
+    <input type="submit" value="Delete" />
+</form>
+<br/>
+</body>
+</html>

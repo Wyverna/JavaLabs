@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Change Project</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>Change Project:</h1>
+<form th:action="@{/ChangeProject}"
+      th:object="${ProjectForm}" method="POST">
+    <div th:if="${#fields.hasErrors()}">
+    <span class="validationError">
+    Please correct the information.
+    </span>
+    </div>
+    ID:
+    <input type="text" th:field="*{id}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('id')}"
+          th:errors="*{id}">
+    </span>
+    <br/>
+    First Name:
+    <input type="text" th:field="*{firstName}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('firstName')}"
+          th:errors="*{firstName}">
+    </span>
+    <br/>
+    Name Project:
+    <input type="text" th:field="*{nameProject}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('nameProject')}"
+          th:errors="*{nameProject}">
+</span>
+    <br/>
+    Worker ID:
+    <input type="text" th:field="*{worker_Id}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('worker_Id')}"
+          th:errors="*{worker_Id}">
+    </span>
+    <br/>
+    <input type="submit" value="Update" />
+</form>
+<br/>
+</body>
+</html>

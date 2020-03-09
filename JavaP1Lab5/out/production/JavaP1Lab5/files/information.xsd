@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="director" type="directorType"/>
+  <xs:complexType name="workerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="lastName"/>
+      <xs:element type="xs:string" name="firstName"/>
+      <xs:element type="xs:string" name="secondName"/>
+      <xs:element type="xs:string" name="salary"/>
+      <xs:element type="xs:string" name="experience"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="directorType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="name"/>
+      <xs:element type="workerType" name="worker" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

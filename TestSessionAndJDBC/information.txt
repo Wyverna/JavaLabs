@@ -1,0 +1,6 @@
+﻿
+2019-06-28 08:13:39 INFO  class ServletForJDBC:43 - 
+User:
+Name: admin
+Password: admin
+Type:admin

@@ -1,0 +1,31 @@
+"2019-12-18 11:36:24 [restartedMain] INFO  c.e.javalab.Javalab3Sem2Application- Starting Javalab3Sem2Application on user-VAIO with PID 7564 (started by user in E:\Program Files\JavaLab\javalab5Sem2)
+ ""2019-12-18 11:36:24 [restartedMain] INFO  c.e.javalab.Javalab3Sem2Application- No active profile set, falling back to default profiles: default
+ ""2019-12-18 11:36:24 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls- The Class-Path manifest attribute in C:\Users\user\.m2\repository\com\oracle\ojdbc\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/user/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/user/.m2/repository/com/oracle/ojdbc/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/user/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/user/.m2/repository/com/oracle/ojdbc/oraclepki/oracle.osdt/osdt_cert.jar
+ ""2019-12-18 11:36:24 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls- The Class-Path manifest attribute in C:\Users\user\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/user/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+ ""2019-12-18 11:36:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor- Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+ ""2019-12-18 11:36:24 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor- For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+ ""2019-12-18 11:36:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+ ""2019-12-18 11:36:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 140ms. Found 3 repository interfaces.
+ ""2019-12-18 11:36:28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ ""2019-12-18 11:36:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+ ""2019-12-18 11:36:29 [restartedMain] INFO  o.a.catalina.core.StandardService- Starting service [Tomcat]
+ ""2019-12-18 11:36:29 [restartedMain] INFO  o.a.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.27]
+ ""2019-12-18 11:36:29 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+ ""2019-12-18 11:36:29 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+ ""2019-12-18 11:36:29 [restartedMain] WARN  c.z.hikari.util.DriverDataSource- Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+ ""2019-12-18 11:36:31 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+ ""2019-12-18 11:36:31 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration- H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@//localhost:1521/KVO_PDB'
+ ""2019-12-18 11:36:31 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper- HHH000204: Processing PersistenceUnitInfo [name: default]
+ ""2019-12-18 11:36:31 [restartedMain] INFO  org.hibernate.Version- HHH000412: Hibernate Core {5.4.6.Final}
+ ""2019-12-18 11:36:32 [restartedMain] INFO  o.h.annotations.common.Version- HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+ ""2019-12-18 11:36:32 [restartedMain] INFO  org.hibernate.dialect.Dialect- HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+ ""2019-12-18 11:36:34 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator- HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+ ""2019-12-18 11:36:34 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean- Initialized JPA EntityManagerFactory for persistence unit 'default'
+ ""2019-12-18 11:36:36 [restartedMain] WARN  o.t.templatemode.TemplateMode- [THYMELEAF][restartedMain] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+ ""2019-12-18 11:36:36 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration- spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ ""2019-12-18 11:36:36 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+ ""2019-12-18 11:36:37 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer- LiveReload server is running on port 35729
+ ""2019-12-18 11:36:38 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer- Tomcat started on port(s): 8080 (http) with context path ''
+ ""2019-12-18 11:36:38 [restartedMain] INFO  c.e.javalab.Javalab3Sem2Application- Started Javalab3Sem2Application in 15.231 seconds (JVM running for 19.586)
+ ""2019-12-18 11:38:11 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+ "

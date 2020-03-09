@@ -1,0 +1,1882 @@
+2018-04-15 20:34:55 ERROR PlanetController:63 - java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+2018-04-15 20:35:54 ERROR PlanetController:63 - java.sql.SQLException: Before start of result set
+2018-04-15 20:37:09 ERROR PlanetController:63 - java.sql.SQLException: Before start of result set
+2018-04-15 21:03:45 ERROR PlanetController:71 - java.sql.SQLException: Illegal operation on empty result set.
+2018-04-15 21:04:20 ERROR PlanetController:71 - java.sql.SQLException: Illegal operation on empty result set.
+2018-04-15 23:38:41 INFO  PlanetController:42 - Planet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-16 00:08:21 INFO  PlanetController:44 - Planet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-16 00:09:33 INFO  PlanetController:43 - Planet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-16 00:09:33 ERROR PlanetController:132 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'skld' for key 'PRIMARY'
+2018-04-16 00:12:29 INFO  PlanetController:43 - Planet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-16 00:12:29 ERROR PlanetController:132 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'skld' for key 'PRIMARY'
+2018-04-16 00:12:29 ERROR Sputnik:129 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'PRIMARY'
+2018-04-16 00:13:22 INFO  PlanetController:43 - Planet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-16 00:13:23 ERROR Sputnik:129 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`items`.`producer`, CONSTRAINT `sputnik_ibfk_1` FOREIGN KEY (`planet_name`) REFERENCES `item` (`name`))
+2018-04-16 00:18:03 ERROR PlanetController:132 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'skfld1' for key 'PRIMARY'
+2018-04-16 00:18:03 ERROR Sputnik:129 - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'PRIMARY'
+2018-04-16 00:28:46 INFO  class Main:26 - true
+2018-04-16 00:34:26 INFO  class Main:26 - false
+2018-04-16 00:39:30 INFO  class Main:26 - false
+2018-04-24 14:32:56 ERROR PlanetController:78 - java.sql.SQLException: Invalid use of group function
+2018-04-24 14:54:13 ERROR PlanetController:77 - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+2018-04-24 14:54:40 INFO  PlanetController:46 - Planet:
+Name: skfld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: skfld1
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: zzz
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-04-24 15:15:19 INFO  PlanetController:46 - Planet:
+Name: skfld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: skfld1
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: skld
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?truePlanet:
+Name: zzz
+Radius: 1222
+Temperature122
+isAtmosphere?true
+isLife?true
+2018-06-12 13:59:13 INFO  PlanetController:46 - 
+2018-06-12 14:01:31 INFO  PlanetController:46 - 
+2018-06-12 14:04:42 INFO  PlanetController:46 - 
+2018-06-12 14:07:45 INFO  PlanetController:46 - 
+2019-04-07 09:27:53 INFO  PlanetController:46 - Planet:
+Name: Arni301
+Radius: 16
+Temperature32
+isAtmosphere?true
+isLife?true
+2019-04-09 11:42:18 INFO  PlanetController:46 - Planet:
+Name: Arni301
+Radius: 16
+Temperature32
+isAtmosphere?true
+isLife?true
+2019-04-09 11:44:48 INFO  PlanetController:46 - Planet:
+Name: Arni301
+Radius: 16
+Temperature32
+isAtmosphere?true
+isLife?true
+2019-04-09 12:54:48 INFO  ItemController:45 - Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 12:55:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:03:13 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:03:13 ERROR ItemController:89 - java.sql.SQLSyntaxErrorException: Unknown column 'France' in 'where clause'
+2019-04-09 13:04:21 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:04:21 ERROR ItemController:89 - java.sql.SQLSyntaxErrorException: Unknown column 'Germany' in 'where clause'
+2019-04-09 13:05:45 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:05:45 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue2018-06-05
+Producer:Fox
+Cost:120
+2019-04-09 13:06:05 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:06:25 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-09 13:06:25 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:00:53 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 12:00:53 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Dice
+Request: 2235532
+DateIssue2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:02:22 ERROR ItemController:75 - java.sql.SQLIntegrityConstraintViolationException: Column 'Producer' in field list is ambiguous
+2019-04-10 12:02:22 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:25:59 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-04-10 12:25:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:26:17 INFO  ItemController:45 - 
+2019-04-10 12:26:17 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:26:40 INFO  ItemController:45 - 
+2019-04-10 12:26:40 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:27:09 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-04-10 12:27:09 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:28:48 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 4 > 3. 
+2019-04-10 12:28:48 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:29:57 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 5 > 4. 
+2019-04-10 12:29:57 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:31:57 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 2 > 1. 
+2019-04-10 12:31:57 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:33:13 ERROR ItemController:47 - java.sql.SQLException: Column Index out of range, 2 > 1. 
+2019-04-10 12:33:14 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:42:55 INFO  Producer:31 - controllers.ProducerController@d35dea7
+2019-04-10 12:42:55 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:45:00 ERROR ItemController:47 - java.sql.SQLDataException: Unsupported conversion from DATE to java.lang.Integer
+2019-04-10 12:45:00 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:45:54 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:45:54 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:46:29 INFO  ItemController:45 - 
+2019-04-10 12:46:29 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:46:54 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:46:54 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:48:08 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:48:08 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:51:40 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:51:40 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:52:42 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:52:43 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:53:51 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:53:51 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:54:17 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:54:26 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 12:55:06 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:55:06 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:58:32 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 12:58:32 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:00:17 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:00:17 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 13:01:01 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:01:29 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 13:01:35 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:01:35 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 13:02:19 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:02:19 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 13:03:02 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:03:02 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:04:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:04:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:05:47 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:05:47 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:06:44 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:06:44 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:07:47 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:07:47 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:09:20 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:09:20 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:10:48 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:10:48 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:12:56 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:12:56 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 13:13:15 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 13:13:15 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 14:09:16 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 14:09:16 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 14:09:16 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 20:34:09 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-10 20:34:09 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-10 20:34:09 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-10 20:34:09 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-04-11 11:11:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-11 11:11:59 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-11 11:11:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-11 11:11:59 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-04-11 11:18:15 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-11 11:18:15 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-11 11:18:15 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-11 11:18:15 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-04-11 11:31:37 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-11 11:31:37 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-11 11:31:37 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-11 11:31:37 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-04-11 11:48:23 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-04-11 11:48:23 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-04-11 11:48:23 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-04-11 11:48:23 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-05-30 11:42:26 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-05-30 11:42:26 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-05-30 11:42:26 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-05-30 11:42:26 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+2019-06-06 11:49:02 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+2019-06-06 11:49:02 INFO  ItemController:45 - 
+Item:
+Name: Rock
+Request: 2234532
+DateIssue 2006-05-20
+Producer:Fox
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120
+Item:
+Name: Rose
+Request: 2234532
+DateIssue 2018-06-05
+Producer:Fox
+Cost:120
+2019-06-06 11:49:02 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+2019-06-06 11:49:02 INFO  ItemController:45 - 
+Item:
+Name: Dice
+Request: 2235532
+DateIssue 2014-05-02
+Producer:Dire
+Cost:20
+Item:
+Name: Rode
+Request: 2234532
+DateIssue 2014-03-02
+Producer:Fox
+Cost:120

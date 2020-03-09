@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="javax.activation-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/javax.activation-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/jaxb-jxc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/jaxb-xjc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/dtd-parser.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/codemodel.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/FastInfoset.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/istack-commons-runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/istack-commons-tools.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/txw2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/jaxb-runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/relaxng-datatype.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/rngom.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/stax-ex.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-ri/mod/xsom.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

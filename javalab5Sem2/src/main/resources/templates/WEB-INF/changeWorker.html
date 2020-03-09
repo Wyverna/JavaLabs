@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Change Worker</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}"/>
+</head>
+<body>
+<h1>Change a Worker:</h1>
+<form th:action="@{/ChangeWorker}"
+      th:object="${WorkerForm2}" method="POST">
+    <div th:if="${#fields.hasErrors()}">
+    <span class="validationError">
+    Please correct the information.
+    </span>
+    </div>
+    ID:
+    <input type="text" th:field="*{id}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('id')}"
+          th:errors="*{id}"/><br/>
+    First Name:
+    <input type="text" th:field="*{firstName}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('firstName')}"
+          th:errors="*{firstName}">
+    </span>
+    <br/>
+    Last Name:
+    <input type="text" th:field="*{lastName}" />
+    <span class="validationError"
+          th:if="${#fields.hasErrors('lastName')}"
+          th:errors="*{lastName}">
+</span>
+    <br/>
+    Experience work:
+    <input type="text" th:field="*{experienceWork}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('experienceWork')}"
+          th:errors="*{experienceWork}">
+    </span>
+    <br/>
+    Technologies:
+    <input type="text" th:field="*{technologies}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('technologies')}"
+          th:errors="*{technologies}">
+    </span>
+    <br/>
+    Birthday:
+    <input type="text" th:field="*{birthday}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('birthday')}"
+          th:errors="*{birthday}">
+    </span>
+    <br/>
+    Position:
+    <input type="text" th:field="*{position}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('Position')}"
+          th:errors="*{position}">
+    </span>
+    <br/>
+    Age:
+    <input type="text" th:field="*{age}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('age')}"
+          th:errors="*{age}">
+    </span>
+    <br/>
+    Telephone:
+    <input type="text" th:field="*{telephone}"/>
+    <span class="validationError"
+          th:if="${#fields.hasErrors('telephone')}"
+          th:errors="*{telephone}">
+    </span>
+    <br/>
+    <input type="submit" value="Change" />
+</form>
+<br/>
+</body>
+</html>

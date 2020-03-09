@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Lab14.2:war">
+    <output-path>$PROJECT_DIR$/Lab14.2/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>Lab14.2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FinalWebApplication.war">
+      <element id="artifact" artifact-name="Lab14.2:war exploded" />
+    </root>
+  </artifact>
+</component>

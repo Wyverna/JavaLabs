@@ -1,0 +1,34 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.List;
+
+public class Selenium  {
+    public static void main(String[] args) {
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("http://www.google.com");
+        WebElement element = driver.findElement(By.name("q"));
+        element.sendKeys("iTechArt");
+        element.submit();
+        (new WebDriverWait(driver, 10)).until(new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver d) {
+                return d.getTitle().contains("iTechArt");
+            }
+        });
+        String result =driver.findElements(By.className("LC20lb")).get(0).getText();
+        if(driver.getTitle().contains("iTechArt"))
+            System.out.println("Page title contain iTechArt");
+        else
+            System.out.println("Page title don't contain iTechArt");
+        if(result.contains("iTechArt"))
+            System.out.println("Page contain iTechArt in first result");
+        else
+            System.out.println("Page don't contain iTechArt in first result");
+        driver.quit();
+    }
+}
